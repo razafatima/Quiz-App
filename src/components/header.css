@@ -1,0 +1,141 @@
+.image{
+    margin-left: 45rem;
+    max-width: 5rem;
+}
+.header{
+    margin-left: 42rem;
+}
+/* button{
+    background-color: #4CAF50; 
+    border: none; 
+    border-radius: 10rem;
+    color: white; 
+    padding: 1rem 20rem; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+   */
+   .answers {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+  }
+  
+  .answer {
+    list-style-type: none;
+  }
+  
+  button {
+    background-color: #f0ddc0; 
+    border: none; 
+    border-radius: 10rem; 
+    color: black;
+    padding: 1rem 6rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #f5d4a2;
+  }
+  .question{
+    padding:2rem;
+    padding-left: 5rem;
+    text-align: center;
+    
+  }
+  .main {
+    background-color: #cfba9d;
+    width: 60%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    border-radius: 5rem;
+  }
+  .summary{
+    background-color: #e6c78e;
+    width: 50%;
+    margin: 0 auto; 
+    height: 20rem;
+    border-radius: 5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .imge {
+    width: 100px; 
+    height: 100px;
+    overflow: hidden; 
+    display: inline-block; 
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+}
+
+.img {
+    background-color: #997532;
+    height: 10rem; 
+    width: 10rem; 
+    border-radius: 60%; 
+    margin-left: 20rem;
+    position: absolute;
+    top: 20rem;
+}
+.head{
+    margin-left: 14rem;
+    font-size:3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+/* ProgressBar.css */
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  appearance: none;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+.progress-bar::-moz-progress-bar {
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+.progress-bar::-ms-fill {
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+.selected {
+  background-color: yellow; /* Example color for selected answer */
+}
+
+.correct {
+  background-color: green; /* Example color for correct answer */
+}
+
+.wrong {
+  background-color: red; /* Example color for wrong answer */
+}
+
+
+
+
+ 
+  
