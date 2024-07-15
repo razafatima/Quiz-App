@@ -25,3 +25,10 @@ yarn-error.log*
 
 .vercel
 public/
+public/
+!public/index.html
+!public/manifest.json
+!public/logo192.png
+!public/logo512.png
+!public/fevicon.ico
+!public/robots.txt
